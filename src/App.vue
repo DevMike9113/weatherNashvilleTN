@@ -11,9 +11,9 @@
         </div>
 
         <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
-          <div class="location-box">
-            <div class="location">{{ weather.name }}, TN</div>
-            <div class="date">{{ dateBuilder() }}</div>
+          <div class="loc">
+            <p>{{ weather.name }}, TN</p>
+            <p>{{ dateBuilder() }}</p>
           </div>
 
           <div class="weather-box">
